@@ -220,12 +220,12 @@
         <span class="result-value" id="otrosCargos">$ 0.00</span>
       </div>
       <div class="result-row">
-        <span class="result-label">Base:</span>
-        <span class="result-value" id="base">$ 115.00</span>
+        <span class="result-label">Flete Nacional:</span>
+        <span class="result-value" id="base">$ 95.00</span>
       </div>
       <div class="result-row">
         <span class="result-label">Aduanas:</span>
-        <span class="result-value" id="aduanas">$ 115.00</span>
+        <span class="result-value" id="aduanas">$ 95.00</span>
       </div>
       <div class="result-row" style="border-top: 2px solid #7899d6; padding-top: 15px; margin-top: 10px;">
         <span class="result-label" style="font-size: 16px;">TOTAL:</span>
@@ -554,15 +554,15 @@ function calcular() {
 
   let otrosCargos = 0;
   if (proveedorActual.nombre === 'Proveedor A') {
-    otrosCargos = tarifa.dueCarrier + tarifa.dueAgent;
+    otrosCargos = tarifa.dueCarrier + tarifa.dueAgent + 40;
   } else {
     const awb = tarifa.otrosAwb;
     const kgCharge = pesoCalcular * tarifa.otrosKg;
-    otrosCargos = tarifa.dueAgent + tarifa.dueCarrier + awb + kgCharge;
+    otrosCargos = tarifa.dueAgent + tarifa.dueCarrier + awb + kgCharge + 40;
   }
 
-  const base = 115;
-  const aduanas = 115;
+  const base = 95;
+  const aduanas = 95;
 
   const total = fleteBase + fuelSurcharge + otrosCargos + base + aduanas;
 
@@ -582,8 +582,8 @@ function limpiarResultados() {
   document.getElementById('fleteBase').textContent = '$ 0.00';
   document.getElementById('fuelSurcharge').textContent = '$ 0.00';
   document.getElementById('otrosCargos').textContent = '$ 0.00';
-  document.getElementById('base').textContent = '$ 115.00';
-  document.getElementById('aduanas').textContent = '$ 115.00';
+  document.getElementById('base').textContent = '$ 95.00';
+  document.getElementById('aduanas').textContent = '$ 95.00';
   document.getElementById('total').textContent = '$ 0.00';
   document.getElementById('totalFinal').textContent = '$ 0.00';
 }
