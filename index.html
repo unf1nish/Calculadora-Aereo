@@ -308,84 +308,105 @@ const proveedorB = {
       aerolineas: {
         'LATAM (160*140*110cm / 79Kg)': { minima: 165.00, lt100: 1.32, gt100: 1.22, gt300: 1.12, gt500: 1.02, gt1000: 1.02, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 0, otrosKg: 0 },
         'AVIANCA (PROMO) (170*150*119cm / 200Kg)': { minima: 180.00, lt100: 0.92, gt100: 0.92, gt300: 0.92, gt500: 0.92, gt1000: 0.92, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 },
+        'COPA CARGUERO (300*200*130)': { minima: 260.00, lt100: 3.72, gt100: 2.22, gt300: 2.17, gt500: 2.12, gt1000: 2.12, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15, otrosKg: 10 },
         'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 1.72, gt100: 1.47, gt300: 1.27, gt500: 1.17, gt1000: 1.17, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
+      }
+    },
+    MEXICO: {
+      iata: 'MEX',
+      aerolineas: {
+        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 2.27, gt100: 1.67, gt300: 1.12, gt500: 0.87, gt1000: 0.87, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 },
+        'AVIANCA PROMO (170*150*119cm / 200Kg)': { minima: 180.00, lt100: 1.12, gt100: 1.12, gt300: 1.12, gt500: 1.12, gt1000: 1.12, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 0, otrosAwb: 0, otrosKg: 0 }
       }
     },
     MIAMI: {
       iata: 'MIA',
       aerolineas: {
-        'AVIANCA (170*150*119cm / 200Kg)': { minima: 180.00, lt100: 1.42, gt100: 1.42, gt300: 1.42, gt500: 1.42, gt1000: 1.42, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 },
+        'LATAM (317*210*240cm / 300Kg)': { minima: 220.00, lt100: 2.02, gt100: 1.92, gt300: 1.82, gt500: 1.72, gt1000: 1.72, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 0, otrosKg: 0 },
+        'AVIANCA (300*200*150cm)': { minima: 180.00, lt100: 1.42, gt100: 1.42, gt300: 1.42, gt500: 1.42, gt1000: 1.42, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 },
         'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 1.72, gt100: 1.67, gt300: 1.52, gt500: 1.47, gt1000: 1.47, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
       }
     },
-    'CIUDAD DE PANAMA': {
+    MONTEVIDEO: {
+      iata: 'MVD',
+      aerolineas: {
+        'LATAM (160*140*110cm / 79Kg)': { minima: 320.00, lt100: 2.92, gt100: 2.72, gt300: 2.62, gt500: 2.52, gt1000: 2.52, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 0, otrosKg: 0 },
+        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 4.59, gt100: 4.12, gt300: 4.07, gt500: 3.62, gt1000: 3.62, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
+      }
+    },
+    'PALMEROLA TEGUCIGALPA': {
+      iata: 'XPL',
+      aerolineas: {
+        'COPA (120*100*80cm / 150Kg)': { minima: 190.00, lt100: 2.52, gt100: 2.27, gt300: 2.22, gt500: 2.17, gt1000: 2.17, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 5.00 }
+      }
+    },
+    'PANAMA': {
       iata: 'PTY',
       aerolineas: {
-        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 1.82, gt100: 1.27, gt300: 0.87, gt500: 0.77, gt1000: 0.77, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
-      }
-    },
-    'PUNTA CANA': {
-      iata: 'PUJ',
-      aerolineas: {
-        'AVIANCA (120*100*80cm / 150Kg)': { minima: 180.00, lt100: 1.42, gt100: 1.42, gt300: 1.42, gt500: 1.42, gt1000: 1.42, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 },
-        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 1.72, gt100: 1.67, gt300: 1.52, gt500: 1.47, gt1000: 1.47, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
+        'AIR CARGO PACK': { minima: 160.00, lt100: 1.42, gt100: 1.02, gt300: 0.92, gt500: 0.82, gt1000: 0.82, es: 0.15, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 50.00 },
+        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 1.42, gt100: 1.17, gt300: 0.92, gt500: 0.62, gt1000: 0.62, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 },
+        'AVIANCA PROMO (171*100*80 / 150Kg)': { minima: 180.00, lt100: 0.57, gt100: 0.57, gt300: 0.57, gt500: 0.57, gt1000: 0.57, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
       }
     },
     QUITO: {
       iata: 'UIO',
       aerolineas: {
-        'LATAM (160*140*110cm / 79Kg)': { minima: 185.00, lt100: 1.02, gt100: 0.92, gt300: 0.82, gt500: 0.77, gt1000: 0.77, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 0, otrosKg: 0 },
-        'AVIANCA (170*150*119cm / 200Kg)': { minima: 180.00, lt100: 0.82, gt100: 0.82, gt300: 0.82, gt500: 0.82, gt1000: 0.82, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 },
-        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 1.47, gt100: 1.32, gt300: 0.87, gt500: 0.77, gt1000: 0.77, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
+        'AVIANCA PROMO (170*150*119cm / 150Kg)': { minima: 180.00, lt100: 0.62, gt100: 0.62, gt300: 0.62, gt500: 0.62, gt1000: 0.62, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 0, otrosKg: 0 },
+        'COPA CARGUERO (300*200*130cm)': { minima: 260.00, lt100: 3.72, gt100: 1.87, gt300: 1.72, gt500: 1.62, gt1000: 1.62, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 15.00, otrosKg: 0 },
+        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 1.72, gt100: 1.31, gt300: 1.25, gt500: 1.07, gt1000: 1.07, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
       }
     },
     'SAN JOSE': {
       iata: 'SJO',
       aerolineas: {
-        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 2.02, gt100: 1.57, gt300: 1.32, gt500: 1.22, gt1000: 1.22, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 },
-        'AVIANCA (PROMO) (171*150*119cm / 200Kg)': { minima: 180.00, lt100: 1.22, gt100: 1.22, gt300: 1.22, gt500: 1.22, gt1000: 1.22, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 }
+        'AIR CARGO PACK': { minima: 160.00, lt100: 1.62, gt100: 1.22, gt300: 1.07, gt500: 1.02, gt1000: 1.02, es: 0.15, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 50.00 },
+        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 1.77, gt100: 1.17, gt300: 0.92, gt500: 0.82, gt1000: 0.82, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 },
+        'AVIANCA (PROMO) (171*150*119cm / 200Kg)': { minima: 180.00, lt100: 1.12, gt100: 1.12, gt300: 1.12, gt500: 1.12, gt1000: 1.12, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 }
       }
     },
     'SAN JUAN': {
       iata: 'SJU',
       aerolineas: {
-        'AVIANCA (120*100*80cm / 150Kg)': { minima: 180.00, lt100: 2.12, gt100: 2.12, gt300: 2.12, gt500: 2.12, gt1000: 2.12, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 },
-        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 2.87, gt100: 2.82, gt300: 2.62, gt500: 2.57, gt1000: 2.57, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
+        'AVIANCA (170*150*119cm / 200Kg)': { minima: 180.00, lt100: 1.92, gt100: 1.92, gt300: 1.92, gt500: 1.92, gt1000: 1.92, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 },
+        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 2.42, gt100: 2.07, gt300: 1.77, gt500: 1.57, gt1000: 1.57, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 15.00 }
       }
     },
     'SAN PEDRO SULA': {
       iata: 'SAP',
       aerolineas: {
-        'AVIANCA (PROMO) (171*150*119cm / 200Kg)': { minima: 180.00, lt100: 2.42, gt100: 2.42, gt300: 2.42, gt500: 2.42, gt1000: 2.42, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 },
-        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 3.17, gt100: 2.87, gt300: 2.67, gt500: 2.52, gt1000: 2.52, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
+        'AIR CARGO PACK (200*300*170cm)': { minima: 190.00, lt100: 2.42, gt100: 2.27, gt300: 1.92, gt500: 1.52, gt1000: 1.52, es: 0.15, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 50.00 }
       }
     },
     'SAN SALVADOR': {
       iata: 'SAL',
       aerolineas: {
-        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 2.17, gt100: 1.72, gt300: 1.47, gt500: 1.37, gt1000: 1.37, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 },
-        'AVIANCA (PROMO) (171*150*119cm / 200Kg)': { minima: 180.00, lt100: 1.22, gt100: 1.22, gt300: 1.22, gt500: 1.22, gt1000: 1.22, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 }
+        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 2.42, gt100: 2.04, gt300: 1.85, gt500: 1.59, gt1000: 1.59, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 },
+        'AIR CARGO PACK (120*100*80cm / 150Kg)': { minima: 190.00, lt100: 2.27, gt100: 1.97, gt300: 1.62, gt500: 1.52, gt1000: 1.52, es: 0.15, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 50.00 },
+        'AVIANCA (PROMO) (171*150*119cm / 200Kg)': { minima: 180.00, lt100: 1.12, gt100: 1.12, gt300: 1.12, gt500: 1.12, gt1000: 1.12, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 }
+      }
+    },
+    'SANTA LUCIA': {
+      iata: 'NLU',
+      aerolineas: {
+        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 2.27, gt100: 1.67, gt300: 1.42, gt500: 1.07, gt1000: 1.07, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 15.00, otrosKg: 0 }
       }
     },
     SANTIAGO: {
       iata: 'SCL',
       aerolineas: {
-        'LATAM (160*140*110cm / 79Kg)': { minima: 220.00, lt100: 2.47, gt100: 2.22, gt300: 1.82, gt500: 1.72, gt1000: 1.72, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 0, otrosKg: 0 },
-        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 2.82, gt100: 2.77, gt300: 2.32, gt500: 2.12, gt1000: 2.12, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
+        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 3.37, gt100: 2.57, gt300: 1.57, gt500: 1.37, gt1000: 1.37, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
       }
     },
     'SANTO DOMINGO': {
       iata: 'SDQ',
       aerolineas: {
-        'AVIANCA (120*100*80cm / 150Kg)': { minima: 180.00, lt100: 1.92, gt100: 1.92, gt300: 1.92, gt500: 1.92, gt1000: 1.92, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 },
-        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 3.12, gt100: 2.27, gt300: 1.92, gt500: 1.77, gt1000: 1.77, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
+        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 2.97, gt100: 1.97, gt300: 1.47, gt500: 1.37, gt1000: 1.37, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
       }
     },
     TEGUCIGALPA: {
       iata: 'TGU',
       aerolineas: {
-        'AVIANCA (PROMO) (171*150*119cm / 200Kg)': { minima: 180.00, lt100: 2.42, gt100: 2.42, gt300: 2.42, gt500: 2.42, gt1000: 2.42, es: 0, fuelMin: 0, dueAgent: 50.00, dueCarrier: 25, otrosAwb: 0, otrosKg: 0 },
-        'COPA (120*100*80cm / 150Kg)': { minima: 165.00, lt100: 3.12, gt100: 2.77, gt300: 2.62, gt500: 2.52, gt1000: 2.52, es: 0.25, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 0 }
+        'AIR CARGO PACK (200*300*170cm)': { minima: 180.00, lt100: 2.07, gt100: 1.92, gt300: 1.62, gt500: 1.47, gt1000: 1.47, es: 0.15, fuelMin: 15.00, dueAgent: 50.00, dueCarrier: 25.00, otrosAwb: 15.00, otrosKg: 50.00 }
       }
     }
   }
@@ -596,3 +617,4 @@ limpiarResultados();
 </html>
 
 Esta calculadora solo refleja valores estimados o apróximados.
+
